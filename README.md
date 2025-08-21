@@ -32,36 +32,19 @@ Edit
 
 ## ⚙️ Installation
 
-Clone the repo:
 ```bash
-git clone https://github.com/pragyabose1011/network-intrusion-detection-system.git
-cd network-intrusion-detection-system
-Create a virtual environment & install dependencies:
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-▶️ Usage
 1. Preprocess Dataset
-bash
-Copy
-Edit
+
 python src/preprocessing.py
 2. Train Model
-bash
-Copy
-Edit
+
 python src/train.py
 3. Evaluate Performance
-bash
-Copy
-Edit
+
 python src/evaluate.py
 4. Run Jupyter Notebook (for exploration)
-bash
-Copy
-Edit
+
 jupyter notebook notebooks/
 📊 Results
 Random Forest achieved ~99% accuracy on binary classification (Normal vs Attack).
